@@ -9,12 +9,14 @@ import {MatIconModule} from "@angular/material/icon";
 import { UploadFileComponent } from './upload-file/upload-file.component';
 import {MatFormFieldModule} from "@angular/material/form-field";
 import {MatInputModule} from "@angular/material/input";
+import { ShowFileInfoComponent } from './show-file-info/show-file-info.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     NavBarComponent,
-    UploadFileComponent
+    UploadFileComponent,
+    ShowFileInfoComponent
   ],
   imports: [
     BrowserModule,
